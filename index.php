@@ -13,6 +13,8 @@ for($i = 1; $i <= 100; $i++){
         echo '<br>';
 }
 
+echo '<br><br>';
+
 //2.素数算出
 for($i=1; $i<1000; $i++){
     $yakusuu=0;
@@ -26,3 +28,31 @@ for($i=1; $i<1000; $i++){
         echo '<br>';
     }
 }
+
+echo '<br><br>';
+
+//3.5次元配列
+$juice = array(
+    'りんごジュース' => array(
+        'price' => 100,
+        'stock' => 20),
+
+    'ぶどうジュース' => array(
+        'price' => 120,
+        'stock' => 15),
+
+    'バナナジュース' => array(
+        'price' => 110,
+        'stock' => 25),
+
+    'パインジュース' => array(
+        'price' => 150,
+        'stock' => 8),
+
+    'オレンジジュース' => array(
+        'price' => 115,
+        'stock' => 17),
+
+    );
+
+    var_dump($juice);
